@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4DC0AE87954C4CC992E69B29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2982BA63414963B1BFE2E1 /* libPods.a */; };
+		537229601BF1DAD10055270C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5372295F1BF1DAD10055270C /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		537229641BF1DF500055270C /* NJItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 537229631BF1DF500055270C /* NJItemTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5372296F1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 5372296C1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.m */; settings = {ASSET_TAGS = (); }; };
+		537229701BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5372296E1BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.m */; settings = {ASSET_TAGS = (); }; };
 		6EA699291A791CEE00DF277E /* BlurBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA699251A791CEE00DF277E /* BlurBehaviour.m */; };
 		6EA6992A1A791CEE00DF277E /* StretchyHeaderBehaviour.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA699281A791CEE00DF277E /* StretchyHeaderBehaviour.m */; };
 		6EA6992D1A7A50C600DF277E /* StrechyHeaderExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6992C1A7A50C600DF277E /* StrechyHeaderExampleViewController.m */; };
@@ -43,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50BD34A1D21036FEDF832C12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5372295F1BF1DAD10055270C /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		537229621BF1DF500055270C /* NJItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJItemTableViewController.h; sourceTree = "<group>"; };
+		537229631BF1DF500055270C /* NJItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJItemTableViewController.m; sourceTree = "<group>"; };
+		5372296B1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NJScrollToFullScreenBehaviour.h; path = ScrollToFullScreen/NJScrollToFullScreenBehaviour.h; sourceTree = "<group>"; };
+		5372296C1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NJScrollToFullScreenBehaviour.m; path = ScrollToFullScreen/NJScrollToFullScreenBehaviour.m; sourceTree = "<group>"; };
+		5372296D1BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewController+ScrollToFullScreenEffect.h"; path = "ScrollToFullScreen/UITableViewController+ScrollToFullScreenEffect.h"; sourceTree = "<group>"; };
+		5372296E1BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewController+ScrollToFullScreenEffect.m"; path = "ScrollToFullScreen/UITableViewController+ScrollToFullScreenEffect.m"; sourceTree = "<group>"; };
+		67C236D67FEF8E243D854BD8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6EA699241A791CEE00DF277E /* BlurBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurBehaviour.h; sourceTree = "<group>"; };
 		6EA699251A791CEE00DF277E /* BlurBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurBehaviour.m; sourceTree = "<group>"; };
 		6EA699271A791CEE00DF277E /* StretchyHeaderBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchyHeaderBehaviour.h; sourceTree = "<group>"; };
@@ -55,7 +68,6 @@
 		6EECDA1D1A69174300FA29F7 /* KZBecomeFirstResponderBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZBecomeFirstResponderBehaviour.m; sourceTree = "<group>"; };
 		6EECDA201A69194200FA29F7 /* MultiplexerProxyBehaviour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplexerProxyBehaviour.h; sourceTree = "<group>"; };
 		6EECDA211A69194200FA29F7 /* MultiplexerProxyBehaviour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplexerProxyBehaviour.m; sourceTree = "<group>"; };
-		91EA77AEBCCB46BD9C81C943 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CD3190E01935C60A00E0F37D /* BehaviourExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BehaviourExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3190E31935C60A00E0F37D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD3190E51935C60A00E0F37D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +119,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		537229611BF1DF390055270C /* ScrollToFullScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5372296B1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.h */,
+				5372296C1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.m */,
+				5372296D1BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.h */,
+				5372296E1BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.m */,
+			);
+			name = ScrollToFullScreen;
+			sourceTree = "<group>";
+		};
 		6EA699231A791CEE00DF277E /* Blur */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +151,8 @@
 		6EA6992E1A7A50CC00DF277E /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
+				537229621BF1DF500055270C /* NJItemTableViewController.h */,
+				537229631BF1DF500055270C /* NJItemTableViewController.m */,
 				6EA6992B1A7A50C600DF277E /* StrechyHeaderExampleViewController.h */,
 				6EA6992C1A7A50C600DF277E /* StrechyHeaderExampleViewController.m */,
 			);
@@ -159,7 +184,7 @@
 				CD3191021935C60A00E0F37D /* BehaviourExampleTests */,
 				CD3190E21935C60A00E0F37D /* Frameworks */,
 				CD3190E11935C60A00E0F37D /* Products */,
-				91EA77AEBCCB46BD9C81C943 /* Pods.xcconfig */,
+				DF47AA249478561E1B41B264 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +230,7 @@
 				CD3190EC1935C60A00E0F37D /* InfoPlist.strings */,
 				CD3190EF1935C60A00E0F37D /* main.m */,
 				CD3190F11935C60A00E0F37D /* BehaviourExample-Prefix.pch */,
+				5372295F1BF1DAD10055270C /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +256,7 @@
 		CD3191121935C63E00E0F37D /* Behaviours */ = {
 			isa = PBXGroup;
 			children = (
+				537229611BF1DF390055270C /* ScrollToFullScreen */,
 				6EECDA181A69174300FA29F7 /* CharacterLimiter */,
 				6EECDA1B1A69174300FA29F7 /* FirstResponder */,
 				CD3191131935C63E00E0F37D /* ImagePicker */,
@@ -249,6 +276,15 @@
 				CD3191151935C63E00E0F37D /* KZImagePickerBehaviour.m */,
 			);
 			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		DF47AA249478561E1B41B264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50BD34A1D21036FEDF832C12 /* Pods.debug.xcconfig */,
+				67C236D67FEF8E243D854BD8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E291D00AAC1500DD29F82417 /* Parallax */ = {
@@ -282,6 +318,7 @@
 				CD3190DD1935C60A00E0F37D /* Frameworks */,
 				CD3190DE1935C60A00E0F37D /* Resources */,
 				36678BAE215F44188126687F /* Copy Pods Resources */,
+				351024EE10E0C8C6CF05290A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,6 +386,7 @@
 			files = (
 				CD3190EE1935C60A00E0F37D /* InfoPlist.strings in Resources */,
 				CD3190F61935C60A00E0F37D /* Images.xcassets in Resources */,
+				537229601BF1DAD10055270C /* Launch Screen.storyboard in Resources */,
 				CD3191271935C7E000E0F37D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +402,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		351024EE10E0C8C6CF05290A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36678BAE215F44188126687F /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,7 +429,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AFBFC6282E4B4827B6CAF8FB /* Check Pods Manifest.lock */ = {
@@ -401,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537229641BF1DF500055270C /* NJItemTableViewController.m in Sources */,
 				6EECDA221A69194200FA29F7 /* MultiplexerProxyBehaviour.m in Sources */,
 				CD3190F41935C60A00E0F37D /* AppDelegate.m in Sources */,
 				6EA699291A791CEE00DF277E /* BlurBehaviour.m in Sources */,
@@ -411,7 +465,9 @@
 				6EECDA1E1A69174300FA29F7 /* KZCharacterLimitBehaviour.m in Sources */,
 				6EECDA1F1A69174300FA29F7 /* KZBecomeFirstResponderBehaviour.m in Sources */,
 				6EA6992A1A791CEE00DF277E /* StretchyHeaderBehaviour.m in Sources */,
+				537229701BF1DFAF0055270C /* UITableViewController+ScrollToFullScreenEffect.m in Sources */,
 				E291D2ACE478BA0F7DE3FA7D /* ParallaxAnimationBehaviour.m in Sources */,
+				5372296F1BF1DFAF0055270C /* NJScrollToFullScreenBehaviour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +581,7 @@
 		};
 		CD31910D1935C60A00E0F37D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91EA77AEBCCB46BD9C81C943 /* Pods.xcconfig */;
+			baseConfigurationReference = 50BD34A1D21036FEDF832C12 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -539,7 +595,7 @@
 		};
 		CD31910E1935C60A00E0F37D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91EA77AEBCCB46BD9C81C943 /* Pods.xcconfig */;
+			baseConfigurationReference = 67C236D67FEF8E243D854BD8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

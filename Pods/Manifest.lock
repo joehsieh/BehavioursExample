@@ -1,6 +1,7 @@
 PODS:
+  - Aspects (1.4.1)
   - BlocksKit (2.2.3):
-    - BlocksKit/All
+    - BlocksKit/All (= 2.2.3)
   - BlocksKit/All (2.2.3):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
@@ -17,11 +18,13 @@ PODS:
   - KZAsserts (1.0)
 
 DEPENDENCIES:
+  - Aspects
   - BlocksKit
   - KZAsserts
 
 SPEC CHECKSUMS:
-  BlocksKit: 07c8a80f04275efac6a5f8b973782489c083a182
-  KZAsserts: 008f2f37ba7dcb4ce87bb262a7f91406812a66e5
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BlocksKit: 3ae2bd80239d338053cf1603bf0a7d57dd589ab3
+  KZAsserts: 6e613b569a33582dc94cf7a1f34a2c6d870982a7
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.39.0

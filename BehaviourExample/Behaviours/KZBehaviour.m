@@ -10,6 +10,15 @@
 
 @implementation KZBehaviour
 
+- (instancetype)initWithOwner:(id)owner
+{
+    self = [super init];
+    if (self) {
+        self.owner = owner;
+    }
+    return self;
+}
+
 - (void)setOwner:(id)owner
 {
   if (_owner != owner) {
